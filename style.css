@@ -1,10 +1,11 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f4f4;
-  padding: 30px;
+  padding: 20px;
+  margin: 0;
 }
-.container {
-  max-width: 900px;
+header, main, footer {
+  max-width: 960px;
   margin: auto;
 }
 textarea {
@@ -14,11 +15,11 @@ textarea {
   font-size: 15px;
   border-radius: 8px;
   border: 1px solid #ccc;
-  margin-bottom: 15px;
+  margin: 20px 0;
   box-sizing: border-box;
 }
 .buttons button {
-  margin-right: 10px;
+  margin: 5px 10px 20px 0;
   padding: 10px 15px;
   background-color: #007acc;
   color: white;
@@ -37,4 +38,20 @@ button:hover {
   white-space: pre-wrap;
   font-size: 16px;
   line-height: 1.6;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.hero-img img, .section-img img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
