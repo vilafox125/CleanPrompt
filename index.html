@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>CleanPromt - Editor Intel·ligent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 CleanPromt</h1>
+    <p>Editor intel·ligent per netejar, estructurar i millorar prompts o respostes.</p>
+
+    <textarea id="inputText" placeholder="✍️ Enganxa aquí el teu text brut..."></textarea>
+
+    <div class="buttons">
+      <button onclick="netejarText()">🧼 Netejar</button>
+      <button onclick="reestructurarText()">🛠 Reestructurar</button>
+      <button onclick="professionalizePrompt()">🎯 Professionalize Prompt</button>
+      <button onclick="copiarText()">📋 Copiar</button>
+    </div>
+
+    <h2>🔎 Vista prèvia del text net</h2>
+    <div id="previewBox"></div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
